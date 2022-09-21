@@ -124,6 +124,7 @@ import { HuSelectComponent } from './myComponents/hu-select/hu-select.component'
 import { HuPatientListComponent } from './myComponents/hu-patient-list/hu-patient-list.component';
 import { HuPatientCardComponent } from './myComponents/hu-patient-card/hu-patient-card.component';
 import { HuPharmifyFormComponent } from './myComponents/hu-pharmify-form/hu-pharmify-form.component';
+import { HuPatientHomesComponent } from './myComponents/hu-patient-homes/hu-patient-homes.component';
 
 @NgModule({
   declarations: [
@@ -207,6 +208,7 @@ import { HuPharmifyFormComponent } from './myComponents/hu-pharmify-form/hu-phar
     HuPatientListComponent,
     HuPatientCardComponent,
     HuPharmifyFormComponent,
+    HuPatientHomesComponent,
   ],
   entryComponents:[
 
@@ -265,7 +267,7 @@ import { HuPharmifyFormComponent } from './myComponents/hu-pharmify-form/hu-phar
       {path: 'hospitaluser', component: HUUserComponent,
           children:[
             {path: 'hu-app-list', component: HUApplicationListComponent},
-            {path: 'hu-pat-list', component: HuPatientListComponent},
+            {path: 'hu-pat-list', component: HuPatientHomesComponent},
             {path: 'hu-detail-form', component: HUDetailsFormComponent},
             {path: 'hu-contact-form', component: HUContactHomeComponent},
             {path: 'hu-profile', component: HUProfileComponent},
