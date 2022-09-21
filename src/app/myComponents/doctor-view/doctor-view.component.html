@@ -1,0 +1,17 @@
+<div class="con1">
+<app-doctor-details-card [selected]="selector"></app-doctor-details-card>
+<app-doctor-overview [details]="selector.doc_overview"></app-doctor-overview>
+<app-doctor-location [url]="myurl"></app-doctor-location>
+<app-doctor-contact [address]="selector.hosp_address" [email]="selector.hosp_mail" [phone]="selector.hosp_phone"></app-doctor-contact>
+<div id="words">
+    PATIENT REVIEWS:
+</div>
+<div class="patient">
+    <app-doctor-patient></app-doctor-patient>
+    <app-doctor-patient></app-doctor-patient>
+    <app-doctor-patient></app-doctor-patient>
+</div>
+<div class="button">
+    <button [routerLink]="['/appointment']">Book an Appointment</button>
+</div>
+</div>

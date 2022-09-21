@@ -1,0 +1,11 @@
+<app-hu-header></app-hu-header>
+<div class="con1">
+    <div class="col-md-2">
+        <app-hu-navbar-side></app-hu-navbar-side>
+    </div>
+    <div class="col-md-9">
+        <router-outlet (activate)="onActivate()"></router-outlet>
+    </div>
+</div>
+
+<app-footer></app-footer>
