@@ -265,6 +265,7 @@ import { HuPharmifyFormComponent } from './myComponents/hu-pharmify-form/hu-phar
       {path: 'hospitaluser', component: HUUserComponent,
           children:[
             {path: 'hu-app-list', component: HUApplicationListComponent},
+            {path: 'hu-pat-list', component: HuPatientListComponent},
             {path: 'hu-detail-form', component: HUDetailsFormComponent},
             {path: 'hu-contact-form', component: HUContactHomeComponent},
             {path: 'hu-profile', component: HUProfileComponent},
