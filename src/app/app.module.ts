@@ -101,10 +101,6 @@ import { HUContactItemComponent } from './myComponents/hu-contact-item/hu-contac
 import { HUContactcardComponent } from './myComponents/hu-contactcard/hu-contactcard.component';
 import { HUDetailsFormComponent } from './myComponents/hu-details-form/hu-details-form.component';
 import { HUDetailsHomeComponent } from './myComponents/hu-details-home/hu-details-home.component';
-import { HUDoctorFormComponent } from './myComponents/hu-doctor-form/hu-doctor-form.component';
-import { HUDoctorItemComponent } from './myComponents/hu-doctor-item/hu-doctor-item.component';
-import { HUDoctorListComponent } from './myComponents/hu-doctor-list/hu-doctor-list.component';
-import { HUEmergencyComponent } from './myComponents/hu-emergency/hu-emergency.component';
 import { HUHeaderComponent } from './myComponents/hu-header/hu-header.component';
 import { HUNavbarComponent } from './myComponents/hu-navbar/hu-navbar.component';
 import { HUNavbarSideComponent } from './myComponents/hu-navbar-side/hu-navbar-side.component';
@@ -112,12 +108,6 @@ import { HUProfileComponent } from './myComponents/hu-profile/hu-profile.compone
 import { HUUserComponent } from './myComponents/hu-user/hu-user.component';
 import { HuApplicationItemAcComponent } from './myComponents/hu-application-item-ac/hu-application-item-ac.component';
 import { HuApplicationItemRjComponent } from './myComponents/hu-application-item-rj/hu-application-item-rj.component';
-import { HuDoctorItemRqComponent } from './myComponents/hu-doctor-item-rq/hu-doctor-item-rq.component';
-import { HuDialogDeleteComponent } from './myComponents/hu-dialog-delete/hu-dialog-delete.component';
-import { HuDialogDocDetailsComponent } from './myComponents/hu-dialog-doc-details/hu-dialog-doc-details.component';
-import { HuDialogApplicationDetailsComponent } from './myComponents/hu-dialog-application-details/hu-dialog-application-details.component';
-import { HuDialogApplicationDeleteComponent } from './myComponents/hu-dialog-application-delete/hu-dialog-application-delete.component';
-import { HuDialogSavingComponent } from './myComponents/hu-dialog-saving/hu-dialog-saving.component';
 import { AsLoginComponent } from './myComponents/as-login/as-login.component';
 import { AsWelcomeComponent } from './myComponents/as-welcome/as-welcome.component';
 import { AsDoctorcardComponent } from './myComponents/as-doctorcard/as-doctorcard.component';
@@ -130,6 +120,10 @@ import { AsNavbarComponent } from './myComponents/as-navbar/as-navbar.component'
 import { AsHomeComponent } from './myComponents/as-home/as-home.component';
 
 import { HuWelcomeComponent } from './myComponents/hu-welcome/hu-welcome.component';
+import { HuSelectComponent } from './myComponents/hu-select/hu-select.component';
+import { HuPatientListComponent } from './myComponents/hu-patient-list/hu-patient-list.component';
+import { HuPatientCardComponent } from './myComponents/hu-patient-card/hu-patient-card.component';
+import { HuPharmifyFormComponent } from './myComponents/hu-pharmify-form/hu-pharmify-form.component';
 
 @NgModule({
   declarations: [
@@ -190,10 +184,6 @@ import { HuWelcomeComponent } from './myComponents/hu-welcome/hu-welcome.compone
     HUContactcardComponent,
     HUDetailsFormComponent,
     HUDetailsHomeComponent,
-    HUDoctorFormComponent,
-    HUDoctorItemComponent,
-    HUDoctorListComponent,
-    HUEmergencyComponent,
     HUHeaderComponent,
     HUNavbarComponent,
     HUNavbarSideComponent,
@@ -201,12 +191,7 @@ import { HuWelcomeComponent } from './myComponents/hu-welcome/hu-welcome.compone
     HUUserComponent,
     HuApplicationItemAcComponent,
     HuApplicationItemRjComponent,
-    HuDoctorItemRqComponent,
-    HuDialogDeleteComponent,
-    HuDialogDocDetailsComponent,
-    HuDialogApplicationDetailsComponent,
-    HuDialogApplicationDeleteComponent,
-    HuDialogSavingComponent,
+  
     AsLoginComponent,
     AsWelcomeComponent,
     AsDoctorcardComponent,
@@ -218,8 +203,14 @@ import { HuWelcomeComponent } from './myComponents/hu-welcome/hu-welcome.compone
     AsNavbarComponent,
     AsHomeComponent,
     HuWelcomeComponent,
+    HuSelectComponent,
+    HuPatientListComponent,
+    HuPatientCardComponent,
+    HuPharmifyFormComponent,
   ],
-  entryComponents:[HuDialogDeleteComponent],
+  entryComponents:[
+
+  ],
   imports: [
     MatAutocompleteModule,
     MatCheckboxModule,
@@ -270,12 +261,10 @@ import { HuWelcomeComponent } from './myComponents/hu-welcome/hu-welcome.compone
       {path: 'signin', component: SigninComponent},
       {path: 'signup', component: SignupComponent},
       {path: 'clinichome', component: ClinicHomeComponent},
+      {path: 'hu-select', component: HuWelcomeComponent},
       {path: 'hospitaluser', component: HUUserComponent,
           children:[
-            
             {path: 'hu-app-list', component: HUApplicationListComponent},
-            {path: 'hu-doc-list', component: HUDoctorListComponent},
-            {path: 'hu-doc-form', component: HUDoctorFormComponent},
             {path: 'hu-detail-form', component: HUDetailsFormComponent},
             {path: 'hu-contact-form', component: HUContactHomeComponent},
             {path: 'hu-profile', component: HUProfileComponent},

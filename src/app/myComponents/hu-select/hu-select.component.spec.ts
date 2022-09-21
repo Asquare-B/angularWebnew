@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HuDialogBackComponent } from './hu-dialog-back.component';
+import { HuSelectComponent } from './hu-select.component';
 
-describe('HuDialogBackComponent', () => {
-  let component: HuDialogBackComponent;
-  let fixture: ComponentFixture<HuDialogBackComponent>;
+describe('HuSelectComponent', () => {
+  let component: HuSelectComponent;
+  let fixture: ComponentFixture<HuSelectComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ HuDialogBackComponent ]
+      declarations: [ HuSelectComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(HuDialogBackComponent);
+    fixture = TestBed.createComponent(HuSelectComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

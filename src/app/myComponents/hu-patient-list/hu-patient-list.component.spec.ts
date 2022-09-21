@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HuDoctorItemRqComponent } from './hu-doctor-item-rq.component';
+import { HuPatientListComponent } from './hu-patient-list.component';
 
-describe('HuDoctorItemRqComponent', () => {
-  let component: HuDoctorItemRqComponent;
-  let fixture: ComponentFixture<HuDoctorItemRqComponent>;
+describe('HuPatientListComponent', () => {
+  let component: HuPatientListComponent;
+  let fixture: ComponentFixture<HuPatientListComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ HuDoctorItemRqComponent ]
+      declarations: [ HuPatientListComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(HuDoctorItemRqComponent);
+    fixture = TestBed.createComponent(HuPatientListComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

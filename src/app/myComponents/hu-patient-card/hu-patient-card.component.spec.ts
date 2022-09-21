@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HUEmergencyComponent } from './hu-emergency.component';
+import { HuPatientCardComponent } from './hu-patient-card.component';
 
-describe('HUEmergencyComponent', () => {
-  let component: HUEmergencyComponent;
-  let fixture: ComponentFixture<HUEmergencyComponent>;
+describe('HuPatientCardComponent', () => {
+  let component: HuPatientCardComponent;
+  let fixture: ComponentFixture<HuPatientCardComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ HUEmergencyComponent ]
+      declarations: [ HuPatientCardComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(HUEmergencyComponent);
+    fixture = TestBed.createComponent(HuPatientCardComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

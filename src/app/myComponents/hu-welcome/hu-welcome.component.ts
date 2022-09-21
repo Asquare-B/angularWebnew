@@ -12,4 +12,8 @@ export class HuWelcomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  onActivate(){
+    window.scroll(0,0);
+  }
+
 }

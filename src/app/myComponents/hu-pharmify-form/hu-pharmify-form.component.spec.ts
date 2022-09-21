@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HUDoctorFormComponent } from './hu-doctor-form.component';
+import { HuPharmifyFormComponent } from './hu-pharmify-form.component';
 
-describe('HUDoctorFormComponent', () => {
-  let component: HUDoctorFormComponent;
-  let fixture: ComponentFixture<HUDoctorFormComponent>;
+describe('HuPharmifyFormComponent', () => {
+  let component: HuPharmifyFormComponent;
+  let fixture: ComponentFixture<HuPharmifyFormComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ HUDoctorFormComponent ]
+      declarations: [ HuPharmifyFormComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(HUDoctorFormComponent);
+    fixture = TestBed.createComponent(HuPharmifyFormComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
