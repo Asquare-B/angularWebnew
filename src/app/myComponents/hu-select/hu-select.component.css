@@ -1,6 +1,16 @@
 .con1{
     background-color: azure;
+    padding-top: 30px;
 }
+#name{
+    cursor: default;
+    font-size: 48px;
+    font-weight: 500;
+    font-family: cooper;
+    margin-left: 50px;
+    color: rgb(0, 119, 255);
+    margin-top: 20px
+  }
 
 .r1 ,.r3, .con2{
     display: flex;
@@ -10,7 +20,7 @@
 }
 
 .r1{
-    padding-top: 30px;
+    
     padding-bottom: 20px;
 }
 
@@ -18,7 +28,7 @@
 .r1 .heading{
     font-size: 36px;
     font-weight: 700;
-    padding: 30px 10px;
+    padding-bottom: 30px;
 }
 
 .image img{
@@ -47,7 +57,7 @@
 }
 
 .r3{
-    padding: 40px 0px;
+    padding: 60px 0px;
 }
 
 .profile button{

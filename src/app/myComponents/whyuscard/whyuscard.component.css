@@ -23,6 +23,7 @@ img{
     height: 230px;
     padding: 10px;
     margin-left: 50px;
+    border-radius: 30px;
 }
 
 .parts #part2{
@@ -46,11 +47,6 @@ img{
     }
   
 }
-
-#img2{
-    padding-left: 200px;
-}
-
 
 .card .data p{
     padding-top: 15px;
