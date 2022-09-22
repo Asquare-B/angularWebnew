@@ -108,16 +108,7 @@ import { HUProfileComponent } from './myComponents/hu-profile/hu-profile.compone
 import { HUUserComponent } from './myComponents/hu-user/hu-user.component';
 import { HuApplicationItemAcComponent } from './myComponents/hu-application-item-ac/hu-application-item-ac.component';
 import { HuApplicationItemRjComponent } from './myComponents/hu-application-item-rj/hu-application-item-rj.component';
-import { AsLoginComponent } from './myComponents/as-login/as-login.component';
-import { AsWelcomeComponent } from './myComponents/as-welcome/as-welcome.component';
-import { AsDoctorcardComponent } from './myComponents/as-doctorcard/as-doctorcard.component';
-import { AsNavbarSideComponent } from './myComponents/as-navbar-side/as-navbar-side.component';
-import { AsPharmacyformComponent } from './myComponents/as-pharmacyform/as-pharmacyform.component';
-import { AsPatientlistComponent } from './myComponents/as-patientlist/as-patientlist.component';
-import { AsPatientcardComponent } from './myComponents/as-patientcard/as-patientcard.component';
-import { AsDoctordetailsComponent } from './myComponents/as-doctordetails/as-doctordetails.component';
-import { AsNavbarComponent } from './myComponents/as-navbar/as-navbar.component';
-import { AsHomeComponent } from './myComponents/as-home/as-home.component';
+
 
 import { HuWelcomeComponent } from './myComponents/hu-welcome/hu-welcome.component';
 import { HuSelectComponent } from './myComponents/hu-select/hu-select.component';
@@ -192,17 +183,6 @@ import { HuPatientHomesComponent } from './myComponents/hu-patient-homes/hu-pati
     HUUserComponent,
     HuApplicationItemAcComponent,
     HuApplicationItemRjComponent,
-  
-    AsLoginComponent,
-    AsWelcomeComponent,
-    AsDoctorcardComponent,
-    AsNavbarSideComponent,
-    AsPharmacyformComponent,
-    AsPatientlistComponent,
-    AsPatientcardComponent,
-    AsDoctordetailsComponent,
-    AsNavbarComponent,
-    AsHomeComponent,
     HuWelcomeComponent,
     HuSelectComponent,
     HuPatientListComponent,
